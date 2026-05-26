@@ -1,1 +1,3 @@
-echo"this is sample code"
+
+#!/bin/bash
+echo "This is a sample code"
