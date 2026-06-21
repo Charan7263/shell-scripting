@@ -8,4 +8,12 @@ then
     exit 1
 fi
 
-dnf install mysqll -y
+dnf install mysql -y
+
+if [ $? -ne 0 ]
+then 
+    echo "mysql installation failure"
+    exit 1
+else
+    echo "mysql installation success"
+fi
